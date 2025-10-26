@@ -11,7 +11,7 @@ if game.PlaceId == 286090429 then
         Duration = 5
     })
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/OpposedDev/Plutonic/refs/heads/main/source/arsenal.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sourcemainv2/arcenalFreetrail/refs/heads/main/v2"))()
 else
     game:GetService("StarterGui"):SetCore("SendNotification",{
         Title = "Load Failed!", -- Required
